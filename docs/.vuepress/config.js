@@ -16,8 +16,8 @@ var sb = fs.readdirSync(dirpath).filter(f => {
 .map(f => f.path)
 
 module.exports = {
-    title: 'Netlify CMS + VuePress',
-    description: 'Netlify + VuePress',
+    title: 'nao's Portfolio',
+    description: 'nao's Portfolio',
     themeConfig: {
       docsDir: 'docs',
       repo: 'toshilow/netlify-cms-vuepress',
