@@ -1,4 +1,5 @@
 <template>
+<div class="page">
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -200,4 +201,16 @@
     </div> <!-- /container -->
   </body>
 </html>
+<h1 v-html="title"></h1>
+    <Content />
 </template>
+
+<script>
+  export default {
+    computed: {
+      title() {
+        return this.$page.title
+      }
+    }
+  }
+</script>
